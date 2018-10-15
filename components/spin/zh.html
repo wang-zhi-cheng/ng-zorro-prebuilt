@@ -1,0 +1,299 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>加载中 - NG-ZORRO - Ant Design Of Angular</title>
+    <base href="/">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.js"></script>
+    <!-- Hotjar Tracking Code for ng.ant.design -->
+    <script>
+      (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:792689,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" />
+  <link rel="stylesheet" href="styles.ba7484eafc88ea9e5128.css"></head>
+  <body>
+    <nav><ul><li><a href="/docs/introduce/zh">Ant Design of Angular</a></li>
+<li><a href="/docs/introduce/en">Ant Design of Angular</a></li>
+<li><a href="/docs/getting-started/zh">快速上手</a></li>
+<li><a href="/docs/getting-started/en">Getting Started</a></li>
+<li><a href="/docs/schematics/en">Schematics</a></li>
+<li><a href="/docs/schematics/zh">脚手架</a></li>
+<li><a href="/docs/i18n/en">Internationalization</a></li>
+<li><a href="/docs/i18n/zh">国际化</a></li>
+<li><a href="/docs/customize-theme/en">Customize Theme</a></li>
+<li><a href="/docs/customize-theme/zh">定制主题</a></li>
+<li><a href="/docs/recommendation/zh">社区推荐</a></li>
+<li><a href="/docs/recommendation/en">Third-Party Libraries</a></li>
+<li><a href="/docs/faq/zh">常见问题</a></li>
+<li><a href="/docs/faq/en">FAQ</a></li>
+<li><a href="/docs/contributing/zh">贡献指南</a></li>
+<li><a href="/docs/changelog/zh">更新日志</a></li>
+<li><a href="/docs/contributing/en">Contributing to NG-ZORRO</a></li>
+<li><a href="/docs/changelog/en">Change Log</a></li></ul><ul><li><h3>General</h3><ul><li><a href="/components/button/zh">按钮</a></li>
+<li><a href="/components/button/en">Button</a></li>
+<li><a href="/components/icon/zh">图标</a></li>
+<li><a href="/components/icon/en">Icon</a></li></ul></li>,<li><h3>Layout</h3><ul><li><a href="/components/grid/zh">栅格</a></li>
+<li><a href="/components/grid/en">Grid</a></li>
+<li><a href="/components/layout/zh">布局</a></li>
+<li><a href="/components/layout/en">Layout</a></li></ul></li>,<li><h3>Navigation</h3><ul><li><a href="/components/affix/zh">固钉</a></li>
+<li><a href="/components/affix/en">Affix</a></li>
+<li><a href="/components/breadcrumb/zh">面包屑</a></li>
+<li><a href="/components/breadcrumb/en">Breadcrumb</a></li>
+<li><a href="/components/dropdown/zh">下拉菜单</a></li>
+<li><a href="/components/dropdown/en">Dropdown</a></li>
+<li><a href="/components/menu/zh">导航菜单</a></li>
+<li><a href="/components/menu/en">Menu</a></li>
+<li><a href="/components/pagination/zh">分页</a></li>
+<li><a href="/components/pagination/en">Pagination</a></li>
+<li><a href="/components/steps/zh">步骤条</a></li>
+<li><a href="/components/steps/en">Steps</a></li></ul></li>,<li><h3>Data Entry</h3><ul><li><a href="/components/auto-complete/zh">自动完成</a></li>
+<li><a href="/components/auto-complete/en">Autocomplete</a></li>
+<li><a href="/components/cascader/zh">级联选择</a></li>
+<li><a href="/components/cascader/en">Cascader</a></li>
+<li><a href="/components/checkbox/zh">多选框</a></li>
+<li><a href="/components/checkbox/en">Checkbox</a></li>
+<li><a href="/components/date-picker/zh">日期选择框</a></li>
+<li><a href="/components/date-picker/en">DatePicker</a></li>
+<li><a href="/components/form/zh">表单</a></li>
+<li><a href="/components/form/en">Form</a></li>
+<li><a href="/components/input/zh">输入框</a></li>
+<li><a href="/components/input/en">Input</a></li>
+<li><a href="/components/input-number/zh">数字输入框</a></li>
+<li><a href="/components/input-number/en">InputNumber</a></li>
+<li><a href="/components/mention/zh">提及</a></li>
+<li><a href="/components/mention/en">Mention</a></li>
+<li><a href="/components/radio/zh">单选框</a></li>
+<li><a href="/components/radio/en">Radio</a></li>
+<li><a href="/components/rate/zh">评分</a></li>
+<li><a href="/components/rate/en">Rate</a></li>
+<li><a href="/components/select/zh">选择器</a></li>
+<li><a href="/components/select/en">Select</a></li>
+<li><a href="/components/slider/zh">滑动输入条</a></li>
+<li><a href="/components/slider/en">Slider</a></li>
+<li><a href="/components/switch/zh">开关</a></li>
+<li><a href="/components/switch/en">Switch</a></li>
+<li><a href="/components/time-picker/zh">时间选择框</a></li>
+<li><a href="/components/time-picker/en">TimePicker</a></li>
+<li><a href="/components/transfer/zh">穿梭框</a></li>
+<li><a href="/components/transfer/en">Transfer</a></li>
+<li><a href="/components/tree-select/zh">树选择</a></li>
+<li><a href="/components/tree-select/en">TreeSelect</a></li>
+<li><a href="/components/upload/zh">上传</a></li>
+<li><a href="/components/upload/en">Upload</a></li></ul></li>,<li><h3>Data Display</h3><ul><li><a href="/components/avatar/zh">头像</a></li>
+<li><a href="/components/avatar/en">Avatar</a></li>
+<li><a href="/components/badge/zh">徽标数</a></li>
+<li><a href="/components/badge/en">Badge</a></li>
+<li><a href="/components/calendar/zh">日历</a></li>
+<li><a href="/components/calendar/en">Calendar</a></li>
+<li><a href="/components/card/zh">卡片</a></li>
+<li><a href="/components/card/en">Card</a></li>
+<li><a href="/components/carousel/zh">走马灯</a></li>
+<li><a href="/components/carousel/en">Carousel</a></li>
+<li><a href="/components/collapse/zh">折叠面板</a></li>
+<li><a href="/components/collapse/en">Collapse</a></li>
+<li><a href="/components/list/zh">列表</a></li>
+<li><a href="/components/list/en">List</a></li>
+<li><a href="/components/popover/zh">气泡卡片</a></li>
+<li><a href="/components/popover/en">Popover</a></li>
+<li><a href="/components/table/zh">表格</a></li>
+<li><a href="/components/table/en">Table</a></li>
+<li><a href="/components/tabs/zh">标签页</a></li>
+<li><a href="/components/tabs/en">Tabs</a></li>
+<li><a href="/components/tag/zh">标签</a></li>
+<li><a href="/components/tag/en">Tag</a></li>
+<li><a href="/components/timeline/zh">时间轴</a></li>
+<li><a href="/components/timeline/en">Timeline</a></li>
+<li><a href="/components/tooltip/zh">文字提示</a></li>
+<li><a href="/components/tooltip/en">Tooltip</a></li>
+<li><a href="/components/tree/zh">树形控件</a></li>
+<li><a href="/components/tree/en">Tree</a></li></ul></li>,<li><h3>Feedback</h3><ul><li><a href="/components/alert/zh">警告提示</a></li>
+<li><a href="/components/alert/en">Alert</a></li>
+<li><a href="/components/drawer/zh">抽屉</a></li>
+<li><a href="/components/drawer/en">Drawer</a></li>
+<li><a href="/components/message/zh">全局提示</a></li>
+<li><a href="/components/message/en">Message</a></li>
+<li><a href="/components/modal/zh">对话框</a></li>
+<li><a href="/components/modal/en">Modal</a></li>
+<li><a href="/components/notification/zh">通知提醒框</a></li>
+<li><a href="/components/notification/en">Notification</a></li>
+<li><a href="/components/popconfirm/zh">气泡确认框</a></li>
+<li><a href="/components/popconfirm/en">Popconfirm</a></li>
+<li><a href="/components/progress/zh">进度条</a></li>
+<li><a href="/components/progress/en">Progress</a></li>
+<li><a href="/components/skeleton/zh">加载占位图</a></li>
+<li><a href="/components/skeleton/en">Skeleton</a></li>
+<li><a href="/components/spin/zh">加载中</a></li>
+<li><a href="/components/spin/en">Spin</a></li></ul></li>,<li><h3>Other</h3><ul><li><a href="/components/anchor/zh">锚点</a></li>
+<li><a href="/components/anchor/en">Anchor</a></li>
+<li><a href="/components/back-top/zh">回到顶部</a></li>
+<li><a href="/components/back-top/en">BackTop</a></li>
+<li><a href="/components/divider/zh">分割线</a></li>
+<li><a href="/components/divider/en">Divider</a></li></ul></li></ul></nav><main><article><nz-affix class="toc-affix" [nzOffsetTop]="16">
+    <nz-anchor [nzAffix]="false" nzShowInkInFixed (nzClick)="goLink($event)">
+      <nz-link nzHref="#components-spin-demo-basic" nzTitle="基本用法"></nz-link><nz-link nzHref="#components-spin-demo-size" nzTitle="各种大小"></nz-link><nz-link nzHref="#components-spin-demo-inside" nzTitle="容器"></nz-link><nz-link nzHref="#components-spin-demo-nested" nzTitle="卡片加载中"></nz-link><nz-link nzHref="#components-spin-demo-tip" nzTitle="自定义描述文案"></nz-link><nz-link nzHref="#components-spin-demo-delayAndDebounce" nzTitle="延迟"></nz-link><nz-link nzHref="#components-spin-demo-custom-indicator" nzTitle="自定义指示符"></nz-link>
+    </nz-anchor>
+  </nz-affix><section class="markdown">
+	<h1>Spin<span class="subtitle">加载中</span>
+	<a class="edit-button" href="https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/doc/index.zh-CN.md" target="_blank">
+		<i nz-icon type="edit"></i></a>
+</h1>
+	<section class="markdown" ngNonBindable>
+		<p>用于页面和区块的加载中状态。</p>
+<h2 id="何时使用"><span>何时使用</span><a onclick="window.location.hash = '何时使用'" class="anchor">#</a></h2><p>页面局部处于等待异步数据或正在渲染过程时，合适的加载动效会有效缓解用户的焦虑。</p>
+
+	</section>
+	
+	<h2>
+		<span>代码演示</span>
+		<i nz-icon type="appstore" class="code-box-expand-trigger" title="展开全部代码" (click)="expandAllCode()"></i>
+	</h2>
+</section><div nz-row [nzGutter]="16">
+	<div nz-col [nzLg]="12" [nzMd]="24">
+		<nz-code-box nzTitle="基本用法" [nzId]="'components-spin-demo-basic'" nzSelector="nz-demo-spin-basic" [nzLink]="'components-spin-demo-basic'" nzGenerateCommand="ng g ng-zorro-antd:spin-basic -p app --name=" nzComponentName="NzDemoSpinBasicComponent" [nzCode]="basic" [nzRawCode]="basicRaw" nzIframeSource="null" nzIframeHeight="null" [nzHref]="'https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/demo/basic.md'">
+	<nz-demo-spin-basic demo></nz-demo-spin-basic>
+	<div intro ngNonBindable>
+		<p>一个简单的 loading 状态。</p>
+
+	</div>
+</nz-code-box>
+<nz-code-box nzTitle="容器" [nzId]="'components-spin-demo-inside'" nzSelector="nz-demo-spin-inside" [nzLink]="'components-spin-demo-inside'" nzGenerateCommand="ng g ng-zorro-antd:spin-inside -p app --name=" nzComponentName="NzDemoSpinInsideComponent" [nzCode]="inside" [nzRawCode]="insideRaw" nzIframeSource="null" nzIframeHeight="null" [nzHref]="'https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/demo/inside.md'">
+	<nz-demo-spin-inside demo></nz-demo-spin-inside>
+	<div intro ngNonBindable>
+		<p>放入一个容器中。</p>
+
+	</div>
+</nz-code-box>
+<nz-code-box nzTitle="自定义描述文案" [nzId]="'components-spin-demo-tip'" nzSelector="nz-demo-spin-tip" [nzLink]="'components-spin-demo-tip'" nzGenerateCommand="ng g ng-zorro-antd:spin-tip -p app --name=" nzComponentName="NzDemoSpinTipComponent" [nzCode]="tip" [nzRawCode]="tipRaw" nzIframeSource="null" nzIframeHeight="null" [nzHref]="'https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/demo/tip.md'">
+	<nz-demo-spin-tip demo></nz-demo-spin-tip>
+	<div intro ngNonBindable>
+		<p>自定义描述文案。</p>
+
+	</div>
+</nz-code-box>
+<nz-code-box nzTitle="自定义指示符" [nzId]="'components-spin-demo-custom-indicator'" nzSelector="nz-demo-spin-custom-indicator" [nzLink]="'components-spin-demo-custom-indicator'" nzGenerateCommand="ng g ng-zorro-antd:spin-custom-indicator -p app --name=" nzComponentName="NzDemoSpinCustomIndicatorComponent" [nzCode]="customIndicator" [nzRawCode]="customIndicatorRaw" nzIframeSource="null" nzIframeHeight="null" [nzHref]="'https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/demo/custom-indicator.md'">
+	<nz-demo-spin-custom-indicator demo></nz-demo-spin-custom-indicator>
+	<div intro ngNonBindable>
+		<p>使用自定义指示符。</p>
+
+	</div>
+</nz-code-box>
+
+	</div>
+	<div nz-col [nzLg]="12" [nzMd]="24">
+		<nz-code-box nzTitle="各种大小" [nzId]="'components-spin-demo-size'" nzSelector="nz-demo-spin-size" [nzLink]="'components-spin-demo-size'" nzGenerateCommand="ng g ng-zorro-antd:spin-size -p app --name=" nzComponentName="NzDemoSpinSizeComponent" [nzCode]="size" [nzRawCode]="sizeRaw" nzIframeSource="null" nzIframeHeight="null" [nzHref]="'https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/demo/size.md'">
+	<nz-demo-spin-size demo></nz-demo-spin-size>
+	<div intro ngNonBindable>
+		<p>小的用于文本加载，默认用于卡片容器级加载，大的用于<strong>页面级</strong>加载。</p>
+
+	</div>
+</nz-code-box>
+<nz-code-box nzTitle="卡片加载中" [nzId]="'components-spin-demo-nested'" nzSelector="nz-demo-spin-nested" [nzLink]="'components-spin-demo-nested'" nzGenerateCommand="ng g ng-zorro-antd:spin-nested -p app --name=" nzComponentName="NzDemoSpinNestedComponent" [nzCode]="nested" [nzRawCode]="nestedRaw" nzIframeSource="null" nzIframeHeight="null" [nzHref]="'https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/demo/nested.md'">
+	<nz-demo-spin-nested demo></nz-demo-spin-nested>
+	<div intro ngNonBindable>
+		<p>可以直接把内容内嵌到 <code>Spin</code> 中，将现有容器变为加载状态。</p>
+
+	</div>
+</nz-code-box>
+<nz-code-box nzTitle="延迟" [nzId]="'components-spin-demo-delayAndDebounce'" nzSelector="nz-demo-spin-delayAndDebounce" [nzLink]="'components-spin-demo-delayAndDebounce'" nzGenerateCommand="ng g ng-zorro-antd:spin-delayAndDebounce -p app --name=" nzComponentName="NzDemoSpinDelayAndDebounceComponent" [nzCode]="delayAndDebounce" [nzRawCode]="delayAndDebounceRaw" nzIframeSource="null" nzIframeHeight="null" [nzHref]="'https://github.com/NG-ZORRO/ng-zorro-antd/edit/master/components/spin/demo/delayAndDebounce.md'">
+	<nz-demo-spin-delayAndDebounce demo></nz-demo-spin-delayAndDebounce>
+	<div intro ngNonBindable>
+		<p>延迟显示 loading 效果。当 spinning 状态在 <code>delay</code> 时间内结束，则不显示 loading 状态。</p>
+
+	</div>
+</nz-code-box>
+
+	</div>
+</div>
+<section class="markdown api-container" ngNonBindable><h2 id="api"><span>API</span><a onclick="window.location.hash = 'api'" class="anchor">#</a></h2><h3 id="nz-spin"><span>nz-spin</span><label class="api-type-label component">component</label><a onclick="window.location.hash = 'nz-spin'" class="anchor">#</a></h3><table>
+<thead>
+<tr>
+<th>参数</th>
+<th>说明</th>
+<th>类型</th>
+<th>默认值</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>[nzDelay]</code></td>
+<td>延迟显示加载效果的时间（防止闪烁）</td>
+<td>number (毫秒)</td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>[nzIndicator]</code></td>
+<td>加载指示符</td>
+<td><code>TemplateRef&lt;void&gt;</code></td>
+<td>-</td>
+</tr>
+<tr>
+<td><code>[nzSize]</code></td>
+<td>组件大小，可选值为 <code>small</code> <code>default</code> <code>large</code></td>
+<td>string</td>
+<td>&#39;default&#39;</td>
+</tr>
+<tr>
+<td><code>[nzSpinning]</code></td>
+<td>是否旋转</td>
+<td>boolean</td>
+<td>true</td>
+</tr>
+<tr>
+<td><code>[nzTip]</code></td>
+<td>当作为包裹元素时，可以自定义描述文案</td>
+<td>string</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+</section></article></main>
+    <script type="text/javascript">
+      // Single Page Apps for GitHub Pages
+      // https://github.com/rafrex/spa-github-pages
+      // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
+      // ----------------------------------------------------------------------
+      // This script checks to see if a redirect is present in the query string
+      // and converts it back into the correct url and adds it to the
+      // browser's history using window.history.replaceState(...),
+      // which won't cause the browser to attempt to load the new url.
+      // When the single page app is loaded further down in this file,
+      // the correct url will be waiting in the browser's history for
+      // the single page app to route accordingly.
+      (function(l) {
+        if (l.search) {
+          var q = {};
+          l.search.slice(1).split('&').forEach(function(v) {
+            var a = v.split('=');
+            q[a[0]] = a.slice(1).join('=').replace(/~and~/g, '&');
+          });
+          if (q.p !== undefined) {
+            window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + (q.p || '') +
+              (q.q ? ('?' + q.q) : '') +
+              l.hash
+            );
+          }
+        }
+      }(window.location))
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-52892298-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-52892298-2');
+    </script>
+  <script type="text/javascript" src="runtime.3b80d31845c016626f6e.js"></script><script type="text/javascript" src="polyfills.123964adf0983bf3e4a6.js"></script><script type="text/javascript" src="scripts.03e042f1f102bf0e2ed8.js"></script><script type="text/javascript" src="main.7e111ff5ba3e8cf76293.js"></script></body>
+</html>
